@@ -24,10 +24,7 @@ Python Libraries:
  * [Python](https://www.python.org/) - The programming language used
  * [PyQt4](https://pypi.python.org/pypi/PyQt4) - GUI Management
  * [cv2](https://docs.opencv.org/3.0-beta/doc/py_tutorials/py_gui/py_image_display/py_image_display.html) - Face Recognisation
-
-## Contributing
-
-We will update the details soon.
+ * [face_recognition](https://pypi.python.org/pypi/face_recognition) - Face Recognisation
 
 ## Versioning
 
@@ -36,9 +33,3 @@ We use [GitHub](http://github.com/) for versioning.
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
-
-## Acknowledgments
-
- * A
- * B
- * C
