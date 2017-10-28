@@ -19,7 +19,7 @@ def extract_faces():
             i=i+1
     cv2.waitKey(0)
     cv2.destroyAllWindows()
-    # print (i, 'faces read')
+    print (i, 'faces read')
 
 def match():
     present = {}
