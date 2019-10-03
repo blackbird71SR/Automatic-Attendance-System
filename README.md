@@ -18,7 +18,7 @@ Python Libraries:
  * numpy
  * cv2
 ```
-
+*** update***
 ## GUI:
 The GUI of this project "Automated Attendance System" has been made using PyQt4 module of Python. It is basically seperated into three 
 windows:
