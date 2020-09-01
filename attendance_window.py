@@ -196,7 +196,11 @@ class AttendanceWindow(QtGui.QMainWindow):
             else:
                 temp.append('A')
         
-        rolls = list(map(str, rolls))        
+        rolls = list(map(str, rolls))
+        
+        rolls = ['"' + i + '"' for i in rolls]
+        temp = ['"' + i + '"' for i in temp]
+
         query='INSERT INTO {} (Date,{}) VALUES (20171018,{});'.format(subject, ','.join(rolls), ','.join(temp))
         print (query)
         c.execute(query)
